@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:padding="8dp"
+    app:cardCornerRadius="5dp">
+
+    <com.daimajia.swipe.SwipeLayout
+        android:id="@+id/row_main_fragment_swipe_orders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:leftEdgeSwipeOffset="0dp"
+        app:rightEdgeSwipeOffset="0dp">
+
+        <!-- Button View For Right to Left -->
+        <LinearLayout
+            android:id="@+id/row_visit_recycler_bottom_wraper"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/row_visit_recycler_tv_review_visit"
+                android:layout_width="@dimen/delete_button_width"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:text="@string/review"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:selectableItemBackground"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:weightSum="1">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="229dp">
+
+                <TextView
+                    android:id="@+id/row_main_fragment_tv_order_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="16dp"
+                    android:drawableLeft="@drawable/icon_gas_cylinder"
+                    android:drawablePadding="5dp"
+                    android:drawableTint="@color/dark_grey_300"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:textColor="@color/grey_800"
+                    app:layout_constraintHorizontal_bias="0.031"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/row_main_fragment_tv_order_in"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="8dp"
+                    android:drawableLeft="@drawable/icon_clock_in"
+                    android:drawablePadding="5dp"
+                    android:drawableTint="@color/dark_grey_300"
+                    android:gravity="center"
+                    android:text="@string/prompt_order_making"
+                    android:textColor="@color/grey_800"
+                    app:layout_constraintHorizontal_bias="0.005"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/row_main_fragment_tv_order_id" />
+
+                <TextView
+                    android:id="@+id/row_main_fragment_tv_order_address"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="8dp"
+                    android:drawableLeft="@drawable/icon_address"
+                    android:drawablePadding="5dp"
+                    android:drawableTint="@color/dark_grey_300"
+                    android:gravity="center|left"
+                    android:maxLines="4"
+                    android:text="TextView"
+                    android:textColor="@color/grey_800"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/row_main_fragment_tv_order_in" />
+
+                <TextView
+                    android:id="@+id/row_main_fragment_prompt_order_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="8dp"
+                    android:drawableLeft="@drawable/icon_timer_sand"
+                    android:drawablePadding="5dp"
+                    android:drawableTint="@color/dark_grey_300"
+                    android:gravity="center"
+                    android:text="@string/prompt_order_status"
+                    android:textColor="@color/grey_800"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/row_main_fragment_tv_order_type" />
+
+                <TextView
+                    android:id="@+id/row_main_fragment_tv_order_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="TextView"
+                    android:textColor="@color/grey_800"
+                    android:textStyle="bold"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toRightOf="@+id/row_main_fragment_prompt_order_status"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/row_main_fragment_tv_order_type" />
+
+                <TextView
+                    android:id="@+id/row_main_fragment_tv_order_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:drawableLeft="@drawable/icon_list"
+                    android:drawablePadding="3dp"
+                    android:drawableTint="@color/dark_grey_300"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:textColor="@color/dark_grey_800"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/row_main_fragment_tv_order_address" />
+
+                <TextView
+                    android:id="@+id/row_main_fragment_tv_notice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:drawableLeft="@drawable/icon_bell"
+                    android:drawablePadding="3dp"
+                    android:drawableTint="@color/dark_grey_300"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:textColor="@color/dark_grey_800"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.968"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <ImageView
+                    android:id="@+id/row_main_fragment_seen_dot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="4dp"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/icon_circle" />
+
+                <TextView
+                    android:id="@+id/row_main_fragment_tv_order_operator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="4dp"
+                    android:drawableLeft="@drawable/icon_operator"
+                    android:drawablePadding="3dp"
+                    android:drawableTint="@color/dark_grey_300"
+                    android:gravity="center"
+                    android:text="TextView"
+                    android:textColor="@color/dark_grey_800"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/row_main_fragment_prompt_order_status" />
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </com.daimajia.swipe.SwipeLayout>
+</android.support.v7.widget.CardView>

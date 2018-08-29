@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    android:overScrollMode="never"
+    tools:context="com.zgas.tesselar.myzuite.View.Activity.UserOperator.DetailActivityOperator"
+    tools:showIn="@layout/activity_detail_leakage">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_prompt_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/icon_account"
+            android:drawablePadding="3dp"
+            android:drawableTint="@color/dark_grey_300"
+            android:gravity="center"
+            android:text="@string/prompt_detail_leakage_client_name"
+            android:textColor="@color/grey_500"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_tv_client_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView"
+            android:textColor="@color/grey_800"
+            android:textSize="15sp"
+            app:layout_constraintHorizontal_bias="0.02"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_prompt_username" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_prompt_case_address"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="9dp"
+            android:drawableLeft="@drawable/icon_address"
+            android:drawablePadding="3dp"
+            android:drawableTint="@color/dark_grey_300"
+            android:gravity="center"
+            android:text="@string/prompt_detail_leakage_address"
+            android:textColor="@color/grey_500"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_leakage_prompt_username"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_tv_client_name" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_tv_case_address"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="TextView"
+            android:textColor="@color/grey_800"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_leakage_tv_client_name"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_prompt_case_address" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_case_programmed_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/icon_clock"
+            android:drawablePadding="3dp"
+            android:drawableTint="@color/dark_grey_300"
+            android:gravity="center"
+            android:text="@string/prompt_detail_leakage_hour_set"
+            android:textColor="@color/grey_500"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_leakage_prompt_case_address"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_tv_case_address" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_tv_time_programmed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="TextView"
+            android:textColor="@color/grey_800"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_leakage_tv_case_address"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_case_programmed_time" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_prompt_seen_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/icon_clock_alert"
+            android:drawablePadding="3dp"
+            android:drawableTint="@color/dark_grey_300"
+            android:gravity="center"
+            android:text="@string/prompt_detail_leakage_hour_seen"
+            android:textColor="@color/grey_500"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_leakage_case_programmed_time"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_tv_time_programmed" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_tv_time_seen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="TextView"
+            android:textColor="@color/grey_800"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_leakage_tv_time_programmed"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_prompt_seen_time" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_prompt_time_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/icon_clock_in"
+            android:drawablePadding="3dp"
+            android:drawableTint="@color/dark_grey_300"
+            android:gravity="center"
+            android:text="@string/prompt_detail_leakage_hour_made"
+            android:textColor="@color/grey_500"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_leakage_prompt_seen_time"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_tv_time_seen" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_prompt_arrival_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/icon_clock_out"
+            android:drawablePadding="3dp"
+            android:drawableTint="@color/dark_grey_300"
+            android:gravity="center"
+            android:text="@string/prompt_detail_leakage_hour_arrived"
+            android:textColor="@color/grey_500"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toRightOf="@+id/activity_detail_leakage_prompt_time_in"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_tv_time_seen" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_tv_time_in"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView"
+            android:textColor="@color/dark_grey_800"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_leakage_tv_time_seen"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_prompt_time_in" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_tv_time_arrived"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="4dp"
+            android:text="TextView"
+            android:textColor="@color/grey_800"
+            app:layout_constraintLeft_toLeftOf="@+id/activity_detail_leakage_tv_time_in"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_prompt_arrival_time" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_prompt_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/icon_clipboard"
+            android:drawablePadding="3dp"
+            android:drawableTint="@color/dark_grey_300"
+            android:gravity="center"
+            android:text="@string/prompt_detail_leakage_status"
+            android:textColor="@color/grey_500"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_leakage_prompt_time_in"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_tv_time_in" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:padding="3dp"
+            android:text="TextView"
+            android:textColor="@color/grey_800"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_leakage_tv_time_in"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_prompt_status" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/activity_detail_leakage_fab_finished"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="32dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:visibility="gone"
+            app:backgroundTint="@color/light_green"
+            app:fabSize="mini"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/activity_detail_leakage_fab_in_progress"
+            app:layout_constraintStart_toEndOf="@+id/activity_detail_leakage_fab_in_progress"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_tv_color"
+            app:srcCompat="@drawable/icon_end" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/activity_detail_leakage_fab_in_progress"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="32dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:tint="@color/white"
+            android:visibility="gone"
+            app:backgroundTint="@color/amber"
+            app:fabSize="mini"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_tv_color"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/icon_gas_tank" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/activity_detail_leakage_fab_cancel"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="32dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:clickable="true"
+            android:visibility="gone"
+            app:backgroundTint="@color/red"
+            app:fabSize="mini"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/activity_detail_leakage_fab_in_progress"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/icon_close" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/activity_detail_leakage_fab_waze"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            app:backgroundTint="@color/sky_blue"
+            app:fabSize="mini"
+            app:layout_constraintHorizontal_bias="0.956"
+            app:layout_constraintLeft_toRightOf="@+id/activity_detail_leakage_prompt_case_address"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon_waze" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_prompt_capacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/icon_gas_cylinder"
+            android:drawablePadding="3dp"
+            android:drawableTint="@color/dark_grey_300"
+            android:gravity="center"
+            android:text="@string/prompt_detail_leakage_cylinder_capacity"
+            android:textColor="@color/grey_500"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_leakage_tv_leak_type"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_tv_channel" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_tv_capacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:padding="3dp"
+            android:text="TextView"
+            android:textColor="@color/grey_800"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_leakage_tv_channel"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_prompt_capacity" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_prompt_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/icon_color"
+            android:drawablePadding="3dp"
+            android:drawableTint="@color/dark_grey_300"
+            android:gravity="center"
+            android:text="@string/prompt_detail_leakage_cylinder_color"
+            android:textColor="@color/grey_500"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_leakage_prompt_capacity"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_tv_capacity" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_tv_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:padding="3dp"
+            android:text="TextView"
+            android:textColor="@color/grey_800"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_leakage_tv_capacity"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_prompt_color" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_tv_leak_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/icon_list"
+            android:drawablePadding="3dp"
+            android:drawableTint="@color/grey_800"
+            android:text="@string/prompt_detail_leakage_channel"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_leakage_prompt_status"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_tv_status" />
+
+        <TextView
+            android:id="@+id/activity_detail_leakage_tv_channel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="TextView"
+            android:textColor="@color/grey_800"
+            android:textSize="15sp"
+            app:layout_constraintStart_toStartOf="@+id/activity_detail_leakage_tv_status"
+            app:layout_constraintTop_toBottomOf="@+id/activity_detail_leakage_tv_leak_type" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

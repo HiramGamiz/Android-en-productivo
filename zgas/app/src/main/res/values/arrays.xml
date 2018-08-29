@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="help_prompts">
+        <item>Falla mecánica</item>
+        <item>Condición climática</item>
+        <item>Choque</item>
+        <item>Asalto</item>
+        <item>Riesgo laboral</item>
+        <item>Recarga de unidad</item>
+        <item>Herramienta no adecuada</item>
+        <item>Falla de celular</item>
+        <item>Falta de gas</item>
+        <item>Incumplimiento de horario</item>
+    </string-array>
+
+    <string-array name="failure_prompts">
+        <item>El cliente no dejó dinero</item>
+        <item>El cliente no estaba en casa</item>
+        <item>No hay toma de llenado</item>
+        <item>El tanque está en mal estado</item>
+        <item>No hubo estacionamiento</item>
+        <item>El pedido fue re-agendado</item>
+        <item>Servicio ya completado por la competencia</item>
+        <item>Servicio ya completado por Zeta Gas</item>
+    </string-array>
+
+    <string-array name="leakage_prompts">
+        <item>Cilindro con gas</item>
+        <item>Cilindro sin gas</item>
+        <item>Estacionario con gas</item>
+        <item>Estacionario sin gas</item>
+        <item>Servicio medido con gas</item>
+        <item>Servicio medido sin gas</item>
+    </string-array>
+
+    <string-array name="leakage_prompts_cilynder_no_gas">
+        <item>Fuga en el fondo, con líquido</item>
+        <item>Fuga en el fondo, sin líquido</item>
+        <item>Fuga en la válvula, con líquido</item>
+        <item>Fuga en la válvula, sin líquido</item>
+        <item>Fuga en la espiga, con líquido</item>
+        <item>Fuga en la espiga, sin líquido</item>
+        <item>Fuga en el tronco, con líquido</item>
+        <item>Fuga en el tronco, sin líquido</item>
+        <item>Fuga en el boiler</item>
+        <item>Fuga en la manguera del cliente</item>
+        <item>Fuga en la estufa</item>
+        <item>Fuga en la línea de servicio</item>
+        <item>Tanque sin fuga</item>
+        <item>Tanque sin fuga, con gas</item>
+        <item>No procede reporte, el cliente no tiene nota de venta, ni pedido en sistema</item>
+        <item>Fuga en el regulador</item>
+        <item>Información icompleta</item>
+        <item>Fuga en la tuerca izquierda</item>
+        <item>Procede cambio</item>
+        <item>Fuga en el pictel</item>
+        <item>Recolectó el tanque el chofer</item>
+        <item>Fuga en la válvula de seguridad</item>
+        <item>Cliente cancela reporte</item>
+        <item>Cliente se niega a la atención de fugas</item>
+        <item>Tanque de planta, se le recolecta</item>
+        <item>Tanque de planta, no quiso la recolección</item>
+        <item>Fuga punta pool</item>
+        <item>Devolución de tanque y efectivo</item>
+        <item>Fuga válvula de servicio</item>
+        <item>No procede reporte, tanque de otro color</item>
+        <item>Tanque sin fuga, sin gas</item>
+        <item>Tanque desfondado, en mal estado</item>
+        <item>Fuga en el poro, con líquido</item>
+        <item>Fuga en el poro, sin líquido</item>
+        <item>Cliente se queda con falla</item>
+        <item>No procede, nota del año pasado</item>
+    </string-array>
+
+    <string-array name="leakage_prompts_cilynder_gas">
+        <item>Fuga en el fondo, con líquido</item>
+        <item>Fuga en el fondo, sin líquido</item>
+        <item>Fuga en la válvula, con líquido</item>
+        <item>Fuga en la válvula, sin líquido</item>
+        <item>Fuga en la espiga, con líquido</item>
+        <item>Fuga en la espiga, sin líquido</item>
+        <item>Fuga en el tronco, con líquido</item>
+        <item>Fuga en el tronco, sin líquido</item>
+        <item>Fuga en el boiler</item>
+        <item>Fuga en la manguera del cliente</item>
+        <item>Fuga en la estufa</item>
+        <item>Fuga en la línea de servicio</item>
+        <item>Tanque sin fuga</item>
+        <item>Tanque sin fuga, con gas</item>
+        <item>No procede reporte, el cliente no tiene nota de venta, ni pedido en sistema</item>
+        <item>Fuga en el regulador</item>
+        <item>Información icompleta</item>
+        <item>Fuga en la tuerca izquierda</item>
+        <item>Procede cambio</item>
+        <item>Fuga en el pictel</item>
+        <item>Recolectó el tanque el chofer</item>
+        <item>Fuga en la válvula de seguridad</item>
+        <item>Cliente cancela reporte</item>
+        <item>Cliente se niega a la atención de fugas</item>
+        <item>Tanque de planta, se le recolecta</item>
+        <item>Tanque de planta, no quiso la recolección</item>
+        <item>Fuga punta pool</item>
+        <item>Devolución de tanque y efectivo</item>
+        <item>Fuga válvula de servicio</item>
+        <item>No procede reporte, tanque de otro color</item>
+        <item>Tanque sin fuga, sin gas</item>
+        <item>Tanque desfondado, en mal estado</item>
+        <item>Fuga en el poro, con líquido</item>
+        <item>Fuga en el poro, sin líquido</item>
+        <item>Cliente se queda con falla</item>
+        <item>No procede, nota del año pasado</item>
+    </string-array>
+
+    <string-array name="leakage_prompts_stationary_no_gas">
+        <item>Fuga en el boiller</item>
+        <item>Fuga en la línea de llenado</item>
+        <item>Fuga en la manguera del cliente</item>
+        <item>Fuga en la estufa</item>
+        <item>Fuga en la línea de servicio</item>
+        <item>Fuga en la carátula</item>
+        <item>Fuga en la válvula de retorno hidrostático</item>
+        <item>Fuga en la válvula check</item>
+        <item>Tanque sin fuga</item>
+        <item>Tanque sin fuga, con gas</item>
+        <item>No procede reporte, el cliente no tiene nota de venta, ni pedido en el sistema</item>
+        <item>Fuga en el regulador</item>
+        <item>Información incompleta</item>
+        <item>Fuga en la tuerca izquierda</item>
+        <item>Fuga en la válvula de seguridad</item>
+        <item>Cliente cancela reporte</item>
+        <item>Cliente se niega a la atención de fugas</item>
+        <item>Fuga punta pool</item>
+        <item>Fuga en la válvula de servicio</item>
+        <item>Tanque sin fuga, sin gas</item>
+        <item>Tanque sobre llenado</item>
+        <item>Fuga en el poro, con líquido</item>
+        <item>Fuga en el poro, sin líquido</item>
+        <item>Cliente se queda con falla</item>
+        <item>No procede, nota del año pasado</item>
+    </string-array>
+
+    <string-array name="leakage_prompts_stationary_gas">
+        <item>Fuga en el boiler</item>
+        <item>Fuga en la línea de llenado</item>
+        <item>Fuga en la manguera del cliente</item>
+        <item>Fuga en la estufa</item>
+        <item>Fuga en la línea de servicio</item>
+        <item>Fuga en la carátula</item>
+        <item>Fuga en la válvula de retorno hidrostático</item>
+        <item>Fuga en la válvula check</item>
+        <item>Tanque sin fuga</item>
+        <item>Tanque sin fuga, con gas</item>
+        <item>No procede reporte, el cliente no tiene nota de venta, ni pedido en el sistema</item>
+        <item>Fuga en el regulador</item>
+        <item>Información incompleta</item>
+        <item>Fuga en la tuerca izquierda</item>
+        <item>Fuga en la válvula de seguridad</item>
+        <item>Cliente cancela reporte</item>
+        <item>Cliente se niega a la atención de fugas</item>
+        <item>Fuga punta pool</item>
+        <item>Fuga en la válvula de servicio</item>
+        <item>Fuga en la válvula de llenado</item>
+        <item>Tanque sin fuga, sin gas</item>
+        <item>Tanque sobre llenado</item>
+        <item>Fuga en el poro, con líquido</item>
+        <item>Fuga en el poro, sin líquido</item>
+        <item>Cliente se queda con falla</item>
+        <item>No procede, nota del año pasado</item>
+
+    </string-array>
+
+    <string-array name="leakage_prompts_service_no_gas">
+        <item>Fuga en el boiler</item>
+        <item>Fuga en la línea de llenado</item>
+        <item>Fuga en la manguera del cliente</item>
+        <item>Fuga en la estufa</item>
+        <item>Fuga en la línea de servicio</item>
+        <item>Fuga en el medidor</item>
+        <item>Fuga en la carátula</item>
+        <item>Fuga en la válvula de retorno hidrostático</item>
+        <item>Fuga en la válvula globo</item>
+        <item>Fuga en la válvula check</item>
+        <item>Tanque sin fuga</item>
+        <item>Tanque sin fuga, con gas</item>
+        <item>No procede reporte, el cliente no tiene nota de venta, ni pedido en el sistema</item>
+        <item>Fuga en el regulador</item>
+        <item>Información incompleta</item>
+        <item>Fuga en la tuerca izquierda</item>
+        <item>Fuga en la válvula de seguridad</item>
+        <item>Cliente cancela reporte</item>
+        <item>Cliente se niega a la atención de fugas</item>
+        <item>Fuga punta pool</item>
+        <item>Fuga válvula de servicio</item>
+        <item>Fuga en la válvula de llenado</item>
+        <item>Tanque sin fuga, sin gas</item>
+        <item>Tanque sobre llenado</item>
+        <item>Fuga en el poro, con líquido</item>
+        <item>Fuga en el poro, sin líquido</item>
+        <item>Cliente se queda con falla</item>
+        <item>No procede, nota del año pasado</item>
+    </string-array>
+
+    <string-array name="leakage_prompts_service_gas">
+        <item>Fuga en el boiler</item>
+        <item>Fuga en la línea de llenado</item>
+        <item>Fuga en la manguera del cliente</item>
+        <item>Fuga en la estufa</item>
+        <item>Fuga en la línea de servicio</item>
+        <item>Fuga en el medidor</item>
+        <item>Fuga en la carátula</item>
+        <item>Fuga en la válvula de retorno hidrostático</item>
+        <item>Fuga en la válvula globo</item>
+        <item>Fuga en la válvula check</item>
+        <item>Tanque sin fuga</item>
+        <item>Tanque sin fuga, con gas</item>
+        <item>No procede reporte, el cliente no tiene nota de venta, ni pedido en el sistema</item>
+        <item>Fuga en el regulador</item>
+        <item>Información incompleta</item>
+        <item>Fuga en la tuerca izquierda</item>
+        <item>Fuga en la válvula de seguridad</item>
+        <item>Cliente cancela reporte</item>
+        <item>Cliente se niega a la atención de fugas</item>
+        <item>Fuga punta pool</item>
+        <item>Fuga válvula de servicio</item>
+        <item>Fuga en la válvula de llenado</item>
+        <item>Tanque sin fuga, sin gas</item>
+        <item>Tanque sobre llenado</item>
+        <item>Fuga en el poro, con líquido</item>
+        <item>Fuga en el poro, sin líquido</item>
+        <item>Cliente se queda con falla</item>
+        <item>No procede, nota del año pasado</item>
+    </string-array>
+
+    <string-array name="order_prompts_review">
+        <item>Dirección incompleta/incorrecta</item>
+        <item>Conflicto vial (tráfico, estacionamiento, escuelas, comensales, tamaño pipa, calles estrechas)</item>
+        <item>Dirección no pertenece a la ruta/mal asignada</item>
+    </string-array>
+</resources>
+

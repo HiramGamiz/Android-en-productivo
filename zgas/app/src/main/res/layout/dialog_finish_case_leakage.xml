@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_green"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/icon_check_circle" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dialog_cancel_case_leakage_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/dialog_finish_title_leak"
+        android:textColor="@color/grey_800"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/dialog_cancel_case_leakage_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_cancel_case_leakage_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/dialog_finish_body_leak"
+        android:textColor="@color/grey_600"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/dialog_finish_case_leakage_sp_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_cancel_case_leakage_body"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp" />
+
+    <Spinner
+        android:id="@+id/dialog_finish_case_leakage_sp_second_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_finish_case_leakage_sp_option"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_finish_case_leakage_sp_second_option"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/dialog_finish_case_leakage_btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button_cancel"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/dialog_finish_cancel"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/dialog_finish_case_leakage_btn_accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button_accept"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/dialog_finish_accept"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

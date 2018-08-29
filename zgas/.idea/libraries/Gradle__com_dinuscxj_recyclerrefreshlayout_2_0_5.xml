@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.dinuscxj:recyclerrefreshlayout-2.0.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerrefreshlayout-2.0.5.aar/f76c332b278b55ee0ac59ff0840e4391/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/recyclerrefreshlayout-2.0.5.aar/f76c332b278b55ee0ac59ff0840e4391/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dinuscxj/recyclerrefreshlayout/2.0.5/9440b739b4142b2fe2da1bc00897d632c756990a/recyclerrefreshlayout-2.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

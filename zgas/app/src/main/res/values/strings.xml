@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">MyZuite</string>
+    <string name="on_create">On Create</string>
+
+    <!-- Actvity Login -->
+    <string name="login">Ingresar</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="action_logout">Cerrar sesión</string>
+
+    <!-- Activity Main -->
+    <string name="prompt_main_fragment">MIS PEDIDOS</string>
+    <string name="prompt_help_fragment">INCIDENCIAS</string>
+    <string name="prompt_order_fragment">ALTA PEDIDO</string>
+    <string name="prompt_order_leak">MIS FUGAS</string>
+    <string name="prompt_supervised">MIS SUPERVISADOS</string>
+    <string name="prompt_main_fragment_service">MIS SERVICIOS</string>
+    <string name="btn_make_order">Realizar reporte</string>
+
+    <!-- Activity detail order-->
+    <string name="prompt_detail_operator_client_id">Número de cliente</string>
+    <string name="prompt_detail_operator_client_name">Nombre del cliente</string>
+    <string name="prompt_detail_operator_address">Dirección</string>
+    <string name="prompt_detail_operator_hour_set">Hora programada</string>
+    <string name="prompt_detail_operator_hour_seen">Hora de visualización</string>
+    <string name="prompt_detail_operator_hour_made">Hora de creación</string>
+    <string name="prompt_detail_operator_hour_arrived">Hora de entrega</string>
+    <string name="prompt_detail_operator_status">Estatus</string>
+    <string name="prompt_detail_operator_tank">Cantidad de litros</string>
+    <string name="prompt_detail_operator_ticket">Folio del ticket</string>
+    <string name="prompt_detail_operator_total">Total</string>
+    <string name="prompt_detail_operator_payment">Tipo de pago</string>
+    <string name="promtp_detail_order_type">Tipo de caso</string>
+    <string name="prompt_detail_treatment_type">Tratamiento</string>
+    <string name="prompt_detail_operator">Detalle </string>
+    <string name="prompt_detail_operator_Quantify">Cantidad </string>
+
+    <!-- Activity detail leakage -->
+    <string name="prompt_detail_leakage_client_id">Número de cliente</string>
+    <string name="prompt_detail_leakage_client_name">Nombre del cliente</string>
+    <string name="prompt_detail_leakage_address">Dirección</string>
+    <string name="prompt_detail_leakage_hour_set">Hora programada</string>
+    <string name="prompt_detail_leakage_hour_seen">Hora de visualización</string>
+    <string name="prompt_detail_leakage_hour_made">Hora de creación</string>
+    <string name="prompt_detail_leakage_hour_arrived">Hora de entrega</string>
+    <string name="prompt_detail_leakage_cylinder_capacity">Capacidad del tanque</string>
+    <string name="prompt_detail_leakage_cylinder_color">Color del tanque</string>
+    <string name="prompt_detail_leakage_channel">Tipo de fuga</string>
+    <string name="prompt_detail_leakage_status">Estatus</string>
+    <string name="prompt_detail_leakage_tank">Cantidad de litros</string>
+    <string name="prompt_detail_leakage_ticket">Folio del ticket</string>
+    <string name="prompt_detail_leakage_total">Total</string>
+    <string name="prompt_detail_leakage">Detalle</string>
+
+    <!-- Activity detail user -->
+    <string name="prompt_detail_supervisor_user_id">Número de usuario</string>
+    <string name="prompt_detail_supervisor_username">Nombre del usuario</string>
+    <string name="prompt_detail_supervisor_email">Correo del usuario</string>
+    <string name="prompt_detail_supervisor_route">Ruta del usuario</string>
+    <string name="prompt_detail_supervisor_zone">Zona del usuario</string>
+    <string name="prompt_detail_supervisor_user_type">Tipo de usuario</string>
+    <string name="prompt_detail_supervisor_user_status">Estatus del usuario</string>
+
+    <!-- Activity supervisor  -->
+    <string name="prompt_supervised_name">Nombre del supervisado</string>
+    <string name="prompt_supervised_status">Estatus del supervisado </string>
+
+    <!-- Finish dialog -->
+    <string name="dialog_finish_title">Finalizar pedido</string>
+    <string name="dialog_finish_body">¿Está seguro de que desea finalizar el pedido?</string>
+    <string name="dialog_finish_accept">Aceptar</string>
+    <string name="dialog_finish_cancel">Cancelar</string>
+    <string name="dialog_finish_title_leak">Finalizar reporte</string>
+    <string name="dialog_finish_body_leak">¿Cuál fue la conclusión del reporte?</string>
+
+    <!-- Failure dialog -->
+    <string name="dialog_failure_title">Falla en el pedido</string>
+    <string name="dialog_failure_title_leak">Falla en el reporte</string>
+    <string name="dialog_failure_body">¿Por qué razón falló el pedido?</string>
+    <string name="dialog_failure_body_leak">¿Por qué razón falló el reporte?</string>
+    <string name="dialog_failure_hint">Descripción...</string>
+    <string name="dialog_failure_accept">Aceptar</string>
+    <string name="dialog_failure_cancel">Cancelar</string>
+
+    <!-- Progress dialog -->
+    <string name="dialog_in_progress_title">Pedido en curso</string>
+    <string name="dialog_in_progress_title_leak">Reporte en curso</string>
+    <string name="dialog_in_progress_body">¿Desea iniciar el curso del pedido?</string>
+    <string name="dialog_in_progress_body_leak">¿Desea iniciar el curso del reporte?</string>
+    <string name="dialog_in_progress_accept">Aceptar</string>
+
+    <!-- Extra order dialog -->
+    <string name="dialog_extra_title">Finalizar pedido</string>
+    <string name="dialog_extra_body">Ingresa los datos del pedido.</string>
+    <string name="dialog_extra_accept">Aceptar</string>
+
+    <!-- HelpOrder dialog -->
+    <string name="dialog_help_order_title">Incidencia reportada</string>
+    <string name="dialog_help_order_body">La incidencia ha sido reportada correctamente.</string>
+    <string name="dialog_help_order_accept">Aceptar</string>
+
+    <!-- NewOrder dialog -->
+    <string name="dialog_new_order_title">Pedido registrado</string>
+    <string name="dialog_new_order_body">El pedido ha sido registrado correctamente.</string>
+    <string name="dialog_new_order_accept">Aceptar</string>
+
+    <!-- Fragment main row -->
+    <string name="prompt_order_making">Hora del pedido:</string>
+    <string name="prompt_order_status">Estatus:</string>
+
+    <!-- Fragment main -->
+    <string name="prompt_order">Ingresa los datos del pedido</string>
+    <string name="prompt_username">Nombre de la persona</string>
+    <string name="prompt_phone">Teléfono de contacto</string>
+    <string name="prompt_address">Dirección</string>
+    <!-- Fragment help -->
+    <string name="prompt_help">¿Tuviste alguna incidencia?</string>
+    <string name="prompt_spinner">Selecciona una opción...</string>
+    <string name="btn_help">Reportar incidencia</string>
+
+    <!-- Activities titles -->
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_supervisor">ActivitySupervisor</string>
+    <string name="title_activity_detail_supervisor">DetailActivitySupervisor</string>
+    <string name="title_activity_detail_leakage">DetailActivityLeakage</string>
+    <string name="title_activity_detail_service">DetailActivityService</string>
+
+    <!-- Finalization, cancellation, in progress strings-->
+    <string name="order_in_progress">El pedido está en curso.</string>
+    <string name="order_finish_report">Realizar reporte</string>
+    <string name="order_finish_report_correct">Reporte realizado exitosamente.</string>
+    <string name="leak_in_progress">El reporte está en curso.</string>
+    <string name="leak_finish_incorrect">Por favor, seleccione una opción.</string>
+    <string name="leak_finish_correct">Reporte finalizado.</string>
+    <string name="leak_failure_incorrect">Por favor, seleccione una opción.</string>
+    <string name="leak_failure_correct">Reporte fallido.</string>
+    <string name="order_new_incorrect">Por favor, llene todos los campos.</string>
+    <string name="order_finish_incorrect">Por favor, llene todos los campos.</string>
+    <string name="order_finish_correct">Pedido finalizado.</string>
+    <string name="order_failure_incorrect">Por favor, seleccione una opción.</string>
+    <string name="order_review_correct">Revisión reportada.</string>
+    <string name="order_review_incorrect">Por favor, seleccione una opción.</string>
+    <string name="order_failure_correct">Falla reportada.</string>
+
+    <!-- Responses -->
+    <string name="error">Error</string>
+    <string name="no_data">Sin datos.</string>
+    <string name="server_error">Error en el servidor.</string>
+    <string name="login_error">Error con el inicio de sesión, por favor verifique sus datos.</string>
+    <string name="wait_message">Por favor, espere...</string>
+    <string name="wait_cases_message">Recuperando los datos...</string>
+    <string name="wait_leakages_message">Recuperando los datos...</string>
+    <string name="wait_users_message">Recuperando los datos...</string>
+    <string name="connection_error">Error de conexión, por favor intente más tarde.</string>
+    <string name="user_data_error">Error al obtener los datos del usuario.</string>
+    <string name="cases_data_error">Error al obtener los casos.</string>
+    <string name="cases_status_error">Error al actualizar el pedido.</string>
+
+    <string name="review">Revisión</string>
+    <string name="cancel">Cancelar</string>
+    <string name="contact">Contacto</string>
+
+    <!-- Review order -->
+    <string name="dialog_review_order">Revisión del pedido</string>
+    <string name="dialog_review_order_leak">Revisión del reporte</string>
+    <string name="dialog_review_order_prompt">Seleccione la opción de revisión</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+
+
+    <!--Dialog finish case Cylinder-->
+    <string name="cylinder_ticket">Folio del ticket</string>
+    <string name="cylinder_10_kg">10 kg.</string>
+    <string name="cylinder_20_kg">20 kg.</string>
+    <string name="cylinder_30_kg">30 kg.</string>
+    <string name="cylinder_45_kg">45 kg.</string>
+    <string name="cylinder_quantity_hint"># cilindros...</string>
+
+    <!-- User status -->
+    <string name="user_active">Activo</string>
+    <string name="user_not_active">No activo</string>
+
+    <!-- Usertype -->
+    <string name="user_type_operator">Operador</string>
+    <string name="user_type_service">Servicio Medido</string>
+    <string name="user_type_supervisor">Supervisor</string>
+    <string name="user_type_technician">Técnico de Fugas</string>
+
+    <!-- Order status -->
+    <string name="order_status_new">Nuevo</string>
+    <string name="order_status_assigned">Asignado</string>
+    <string name="order_status_seen">Visto</string>
+    <string name="order_status_accepted">Aceptado</string>
+    <string name="order_status_in_progress">En curso</string>
+    <string name="order_status_retired">Cilindro retirado</string>
+    <string name="order_status_finished">Entregado</string>
+    <string name="order_status_failed">Fallido</string>
+    <string name="order_status_reviewing">En revisión</string>
+    <string name="order_status_closed">Cerrado</string>
+
+    <!-- Priorities-->
+    <string name="order_priority_high">Alta</string>
+    <string name="order_priority_medium">Media</string>
+    <string name="order_priority_low">Baja</string>
+
+    <!-- Order types -->
+    <string name="order_type_cut">Corte</string>
+    <string name="order_type_measured">Medido</string>
+    <string name="order_type_order">Pedido</string>
+    <string name="order_type_reconnection">Re-conexión</string>
+
+    <!--Order service types -->
+    <string name="service_static">Estacionario</string>
+    <string name="service_cylinder">Cilindro</string>
+
+</resources>
+
+

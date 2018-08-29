@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zgas.tesselar.myzuite.View.Fragment.UserLeakage.MainFragmentLeak">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.dinuscxj.refresh.RecyclerRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fragment_main_leakage_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="60dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/fragment_main_leak_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="60dp"
+            android:overScrollMode="never"
+            android:scrollbars="vertical" />
+
+    </com.dinuscxj.refresh.RecyclerRefreshLayout>
+</RelativeLayout>
